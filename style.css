@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero__main__content img {
+  width: 230px;
+  height: 230px;
+}
+
+ul {
+  list-style: none;
+  display: none;
+}
+
+.container {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  color: #010101;
+  font-family: "Ubuntu", sans-serif;
+}
+
+main {
+  background-color: #000000;
+}
+
+.main_content {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  gap: 1.5em;
+  background-color: bisque;
+}
+
+.agenda_1 {
+  text-align: justify;
+  background-color: aquamarine;
+  border-radius: 0.8em;
+}
+
+.hero__main__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 18px;
+  background-color: #000000;
+  padding: 4.2em;
+}
+
+.hero__main__content-header {
+  display: flex;
+  color: #66b933;
+  padding: 2em;
+}
+
+.hero__main__content-1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: max-content;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  font-family: "Phudu", cursive;
+  border-style: ridge;
+  letter-spacing: 2px;
+  gap: 0.3rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Phudu", cursive;
+  letter-spacing: 0.2rem;
+  background-color: #ffffff;
+  padding: 0.1em;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
