@@ -6,74 +6,80 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&family=Phudu:wght@300;400&family=Quicksand:wght@300&family=Ubuntu:wght@300&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <div class="container">
-      <header>
-        <h1>Gaming Station</h1>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Store</a></li>
-          <li><a href="#">Category</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
+    []
+    <header
+      class="container d-flex justify-content-between align-items-center p-3"
+    >
+      <h1>Gaming Station</h1>
+      <ul class="d-none" id="list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Store</a></li>
+        <li><a href="#">Category</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
 
-        <img src="img/burger.png" alt="" />
-      </header>
-      <main>
-        <div class="hero__main__content-header">
-          <h1>THE LATEST AND GREATEST GAMING SET</h1>
+      <img class="hmbg" src="img/burger.png" alt="" />
+    </header>
+    <main class="d-flex flex-column justify-content-center align-items-center">
+      <div class="d-flex justify-content-center align-items-center p-4">
+        <h1>THE LATEST AND GREATEST GAMING SET</h1>
+      </div>
+      <section class="row d-flex justify-content-center align-items-center p-4">
+        <div class="col-md-3">
+          <img src="img/mouse.png" alt="join" />
+          <h1>Mouse Razer</h1>
+          <p>Rp 1.500.000</p>
         </div>
-        <div class="hero__main__content">
-          <div class="hero__main__content-1">
-            <img src="img/mouse.png" alt="join" />
-            <h1>Mouse Razer</h1>
-            <p>Rp 1.500.000</p>
-          </div>
-          <div class="hero__main__content-1">
-            <img src="img/mousepad.png" alt="2" />
-            <h1>Mousepad Razer</h1>
-            <p>Rp 999.999</p>
-          </div>
-          <div class="hero__main__content-1">
-            <img src="img/keyboard.png" alt="3" />
-            <h1>Keyboard Asus ROG</h1>
-            <p>Rp 1.899.000</p>
-          </div>
-          <div class="hero__main__content-1">
-            <img src="img/gamepad.png" alt="1" />
-            <h1>DualSense Controller</h1>
-            <p>Rp 899.999</p>
-          </div>
-          <div class="hero__main__content-1">
-            <img src="img/nintendo.png" alt="1" />
-            <h1>Nintendo Switch</h1>
-            <p>Rp 3.999.999</p>
-          </div>
-          <div class="hero__main__content-1">
-            <img src="img/bundling.png" alt="1" />
-            <h1>Bundling Gear</h1>
-            <p>Rp 1.999.999</p>
-          </div>
-          <div class="hero__main__content-1">
-            <img src="img/mouse_logitech.png" alt="1" />
-            <h1>Mouse Logitech</h1>
-            <p>Rp 399.999</p>
-          </div>
-          <div class="hero__main__content-1">
-            <img src="img/headset.png" alt="1" />
-            <h1>Headset Razer</h1>
-            <p>Rp 2.999.999</p>
-          </div>
+        <div class="col-md-3">
+          <img src="img/mousepad.png" alt="2" />
+          <h1>Mousepad Razer</h1>
+          <p>Rp 999.999</p>
         </div>
-      </main>
-      <footer>
-        <p>Muhammad Rifqiandi</p>
-      </footer>
-    </div>
+        <div class="col-md-3">
+          <img src="img/nintendo.png" alt="1" />
+          <h1>Nintendo Switch</h1>
+          <p>Rp 3.999.999</p>
+        </div>
+
+        <div class="col-md-3">
+          <img src="img/gamepad.png" alt="1" />
+          <h1>DualSense Controller</h1>
+          <p>Rp 899.999</p>
+        </div>
+
+        <div class="col-md-3">
+          <img src="img/bundling.png" alt="1" />
+          <h1>Bundling Gear</h1>
+          <p>Rp 1.999.999</p>
+        </div>
+        <div class="col-md-3">
+          <img src="img/keyboard.png" alt="3" />
+          <h1>Keyboard Asus ROG</h1>
+          <p>Rp 1.899.000</p>
+        </div>
+        <div class="col-md-3">
+          <img src="img/mouse_logitech.png" alt="1" />
+          <h1>Mouse Logitech</h1>
+          <p>Rp 399.999</p>
+        </div>
+        <div class="col-md-3">
+          <img src="img/headset.png" alt="1" />
+          <h1>Headset Razer</h1>
+          <p>Rp 2.999.999</p>
+        </div>
+      </section>
+    </main>
+    <footer class="d-flex align-items-center justify-content-center p-2">
+      <p>Copyright © 2023 Muhammad Rifqiandi. All Rights Reserved</p>
+    </footer>
+    <!-- </div> -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
